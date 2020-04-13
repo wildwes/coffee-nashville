@@ -1,18 +1,35 @@
-.shop {
-flex-wrap: wrap-reverse;
-flex-direction: row;
-}
+.list {
+    /* list is a parent element of shop and is a larger container. It holds shop within itself */
+    
+    /* flex-direction: row; */
+    display: flex; 
+    /* memo: nothing worked to move any of my code except "display:" that I could find */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: .5%;
+ }
 
+ .shop {
+    border: 1px solid coral;
+    flex-basis: 30%;
+    /* flex-basis set the boxes spaced in three rows */
+ } 
 
+ .pageHeader {
+    text-align: center;
+    /* centers header class "pageHeader" */
+ }
+
+/* test */
 
 
 /* UI/UX Challenge
 This is an optional challenge once you meet MVP. Make a new Github branch for this challenge.
-
 Creating visual hierarchies
-
 Add an address, phone number, and website link to each coffee house (you may use mocked data)
 Using semantic HTML and CSS, style each coffee house component with the goals of easy scannability.
 At a minimum, you will emphasize the name of each shop and make the website link clearly clickable.
 Background color - if you add a background color/image, ensure the copy (text color) 
 has good contrast and is legible. */
+
+
