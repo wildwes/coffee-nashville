@@ -1,9 +1,17 @@
-.shop {
-flex-wrap: wrap-reverse;
-flex-direction: row;
+
+section {
+    border: 1px solid coral;
+    /* flex-direction: row; */
+    display: inline-block;
+    /* memo: nothing worked to move any of my code except "display:" that I could find */
+    
 }
+article {
 
+    align-content: flex-start ;
 
+}
+/* test */
 
 
 /* UI/UX Challenge
